@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hot Rod
+* source:	https://sketchfab.com/3d-models/hot-rod-c45edd25e5f24b86a5d54d5dc2918755
+* author:	TransformerRig (https://sketchfab.com/gamestudio657)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hot Rod" (https://sketchfab.com/3d-models/hot-rod-c45edd25e5f24b86a5d54d5dc2918755) by TransformerRig (https://sketchfab.com/gamestudio657) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
