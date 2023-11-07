@@ -14,13 +14,19 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import androidstudio from './tech/androidstudio.png'
+import express from './tech/express.png'
+import java from './tech/java.png'
+import jupyter from './tech/jupyter.png'
+import kotlin from './tech/kotlin.png'
+import mysql from './tech/mysql.png'
+import vscode from './tech/vscode.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,6 +39,8 @@ import lbs from './company/lbs.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import threedtee from './3dtee.png'
+import lukup from './lukup.png'
 
 export {
   logo,
@@ -50,7 +58,13 @@ export {
   git,
   html,
   javascript,
-  mongodb,
+  androidstudio,
+  express,
+  java,
+  jupyter,
+  kotlin,
+  mysql,
+  vscode,
   nodejs,
   reactjs,
   redux,
@@ -67,4 +81,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  threedtee,
+  lukup,
 };

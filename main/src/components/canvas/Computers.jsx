@@ -4,7 +4,6 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
-  console.log("isMobile in COmputers: ", isMobile);
   const computer = useGLTF('./desktop_pc/scene.gltf');
 
   return (
@@ -25,7 +24,6 @@ const ComputersCanvas = () => {
 
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches)
-      console.log("isMobile", event.matches);
     }
 
     mediaQuery.addEventListener('change', handleMediaQueryChange);

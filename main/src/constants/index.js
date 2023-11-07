@@ -11,7 +11,13 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    androidstudio,
+    express,
+    java,
+    jupyter,
+    kotlin,
+    mysql,
+    vscode,
     git,
     figma,
     docker,
@@ -25,7 +31,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    npea
+    npea,
+    threedtee,
+    lukup
   } from "../assets";
   
   export const navLinks = [
@@ -45,11 +53,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Android Developer",
       icon: mobile,
     },
     {
@@ -57,7 +65,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "ML Engineer",
       icon: creator,
     },
   ];
@@ -72,20 +80,24 @@ import {
       icon: css,
     },
     {
+      name: "Express",
+      icon: express,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Android Studio",
+      icon: androidstudio,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "VS Code",
+      icon: vscode,
     },
     {
       name: "Tailwind CSS",
@@ -96,24 +108,20 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MySQL",
+      icon: mysql,
     },
     {
-      name: "Three JS",
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Kotlin",
+      icon: kotlin,
+    },
+    {
+      name: "ThreeJS",
       icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -177,16 +185,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "LukUp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Welcome to our cutting-edge web search application, designed to empower users with seamless access to the vast expanse of the internet. Explore the web with ease and precision through our intuitive platform.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
         },
         {
@@ -194,29 +202,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: lukup,
+      deployment_link: "https://lukup.netlify.app",
+      source_code_link: "https://github.com/PratyushPriyam/luk_up",
     },
     {
-      name: "Job IT",
+      name: "3D TEE",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Step into the future of online fashion with our innovative 3D T-shirt Try-On web application. Explore a world of style and convenience as you effortlessly experiment with various designs and colors, virtually trying on your favorite t-shirts with lifelike realism",
       tags: [
         {
-          name: "react",
+          name: "framer-motion",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "three.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: threedtee,
+      deployment_link: "https://3dtee.netlify.app/",
+      source_code_link: "https://github.com/PratyushPriyam/3D-TEE",
     },
     {
       name: "Trip Guide",
@@ -237,6 +247,7 @@ import {
         },
       ],
       image: tripguide,
+      deployment_link: "",
       source_code_link: "https://github.com/",
     },
   ];
