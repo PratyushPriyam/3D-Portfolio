@@ -6,6 +6,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../HigherOrderComponent";
 import { Tilt } from "react-tilt";
+import { css, html, javascript } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>

@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
-import { About, Contact, Experience, Feedbacks, Hero, Navbar,
+import { About, Contact, Experience, Feedbacks, Navbar,
 Works } from "./components"
+import Tech from "./components/Tech"
 
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
       <div className="relative z-0 bg-primary scrollbar-hide">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar/>
-          <Hero/>
         </div>
         <About/>
+        <Tech/>
         <Experience/>
         <Works/>
         <div className="relative z-0">

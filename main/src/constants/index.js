@@ -119,10 +119,6 @@ import {
       name: "Kotlin",
       icon: kotlin,
     },
-    {
-      name: "ThreeJS",
-      icon: threejs,
-    },
   ];
   
   const experiences = [

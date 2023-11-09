@@ -2,9 +2,10 @@ import { motion } from 'framer-motion'
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
-// import { EarthCanvas } from './canvas'
+// import { EarthCanvas } from './Earth'
 import { SectionWrapper } from '../HigherOrderComponent'
 import { slideIn } from '../utils/motion'
+import EarthCanvas from './Earth'
 
 
 
@@ -91,9 +92,9 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      {/* <motion.div variants={slideIn('right', "tween", 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+      <motion.div variants={slideIn('right', "tween", 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
         <EarthCanvas/>
-      </motion.div> */}
+      </motion.div>
     </div>
   )
 }
