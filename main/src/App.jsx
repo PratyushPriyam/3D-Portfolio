@@ -1,7 +1,8 @@
 import { BrowserRouter } from "react-router-dom"
-import { About, Contact, Experience, Feedbacks, Navbar,
+import { About, Contact, Experience, Navbar,
 Works } from "./components"
 import Tech from "./components/Tech"
+import Certificates from "./components/Certificates"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Tech/>
         <Experience/>
         <Works/>
+        <Certificates/>
         <div className="relative z-0">
           <Contact/>
         </div>
