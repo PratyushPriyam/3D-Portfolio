@@ -49,9 +49,11 @@ const CertiTile = ({ src, alt, index }) => {
 
   return (
     <motion.div
+      variants={scaleInVariants}
       initial="hidden"
+      // animate="visible"
+      transition={{ duration: index*2 }}
       animate={controls}
-      transition={{ duration: 0.5 }}
       onClick={handleClick}
     >
       <Tilt
